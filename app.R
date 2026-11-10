@@ -237,7 +237,7 @@ rsconnect::writeManifest()
 # ------------------------------------------------------------
 # Run the app 
 # ------------------------------------------------------------
-#shinyApp(ui, server)
+shinyApp(ui, server)
 #shiny::runApp("C:/Users/User/Downloads/Shiny_app/murders_Rshiny_app")
 
 # ============================================================
