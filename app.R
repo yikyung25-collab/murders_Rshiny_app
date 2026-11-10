@@ -231,13 +231,14 @@ server <- function(input, output) {
     }
   )
 }
+rsconnect::writeManifest()
 
 
 # ------------------------------------------------------------
 # Run the app 
 # ------------------------------------------------------------
-shinyApp(ui, server)
-shiny::runApp("C:/Users/User/Downloads/Shiny_app/murders_Rshiny_app")
+#shinyApp(ui, server)
+#shiny::runApp("C:/Users/User/Downloads/Shiny_app/murders_Rshiny_app")
 
 # ============================================================
 # [Deployment — run in the Console, not inside app.R] 과거버전전
@@ -267,5 +268,5 @@ shiny::runApp("C:/Users/User/Downloads/Shiny_app/murders_Rshiny_app")
 
 
 # Posit Cloud Connect
-# install.packages("rsconnect")
-# rsconnect::writeManifest()
+#install.packages("rsconnect")
+#rsconnect::writeManifest()
